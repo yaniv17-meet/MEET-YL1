@@ -1,0 +1,7 @@
+from animalFile import Animal
+
+dog = Animal("Bim", "White & Brown", 4)
+cat = Animal("Ugly", "Black & ugly", 200)
+
+print(dog.name, "is",dog.age,"years old and his color is", dog.color)
+print(cat.name, "- his color is:", cat.color + ", and his age is:", cat.age)
